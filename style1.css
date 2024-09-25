@@ -1,18 +1,22 @@
-body{
+ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 70px;
     padding-right: 70px;
     
     }
 .Doc_header{
-    display: inline;
-    padding: 10px; 
-    margin: 10px;
-    display: flex; 
-    justify-content: space-between;
-    align-content: space-between;
-    position: sticky;
-}
+        padding: 10px; 
+        margin: 10px;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center; 
+        position: sticky;
+        top: 0; 
+        z-index: 1000; 
+        background: white; 
+    }
+
+
 .doc_logo{
     display: flex;
     justify-content: center;
@@ -71,7 +75,7 @@ font-weight: normal;
    border-radius: 10px;
    color: white;
    margin: 10px;
-   height: 300px;
+   height: 350px;
    flex-basis: 48%;
    width: 20%;
 }
@@ -81,7 +85,7 @@ font-weight: normal;
    border-radius: 10px;
    color: white;
    margin: 10px;
-   height: 300px;
+   height: 350px;
    flex-basis: 48%;
    width:20%;
 }
@@ -91,7 +95,7 @@ font-weight: normal;
     border-radius: 10px;
     color: white;
     margin: 10px;
-    height: 300px;
+    height: 350px;
     flex-basis: 48%;
     width:20%;
 }
@@ -203,14 +207,14 @@ a{
 .iplat{
     font-weight: normal;
     font-size: 34px;
-    margin-left: 90px;
+    margin-left: 40px;
     margin-bottom: -40px;
     
 }
 .pplat{
    position: relative;
    bottom: -50px;
-   left: 90px;
+   left: 50px;
    color: #747474;
 }
 .grid{
